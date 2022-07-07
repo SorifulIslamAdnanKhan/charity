@@ -4,7 +4,7 @@ body{
 }
 /* Hero Section Start */
 .hero-section{
-    background-image: url(/images/donation13.jpg);
+    background-image: url(/images/banner-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 150px;
