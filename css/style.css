@@ -2,9 +2,10 @@ body{
     font-family: 'PT Serif', serif;
     margin: 0;
 }
+
 /* Hero Section Start */
 .hero-section{
-    background-image: url(/images/banner-image.jpg);
+    background: url(/images/banner-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 150px;
@@ -126,7 +127,7 @@ body{
     font-size: 30px;
 }
 .testimonial-text{
-    background-image: url(/icons/testimonial-quote.png);
+    background: url(/icons/testimonial-quote.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
