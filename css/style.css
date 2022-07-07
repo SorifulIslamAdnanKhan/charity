@@ -1,0 +1,204 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+/* Hero Section Start */
+.hero-section{
+    background-image: url(/images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.hero-text{
+    text-align: center;
+}
+.hero-text h1{
+    color: white;
+    font-size: 45px;
+}
+.hero-text p{
+    color: white;
+    font-size: 20px;
+    padding-bottom:12px;
+}
+.hero-text a{
+    color: white;
+    background-color: #FF5959;
+    font-size: 20Px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Hero Section End */
+
+/* Donate Area Start */
+.donate-area{
+    text-align: center;
+    padding: 75px;
+}
+.donate-area-info h2{
+    color: #121212;
+    font-size: 30px;
+}
+.donate-area-info p{
+    color: #707070;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.donate-amount p{
+    padding: 20px 20px 20px 20px;
+    margin: 0 5px 0 5px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.donate-amount .selected-donate-amount{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+}
+.form-area form input{
+    text-align: center;
+    color: #B3B3B3;
+    border: none;
+}
+.form-area form hr{
+    width: 50%
+}
+.form-area form button{
+    color: white;
+    background-color: #FF5959;
+    font-size: 20Px;
+    padding: 12px 16px 12px 16px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+/* Our Donate Plan Start */
+.donate-plan{
+    text-align: center;
+    padding: 35px;
+}
+.all-donate-plan{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 0 5px 0 5px;
+}
+.donate-plan-one{
+    background-color: rgba(79, 157, 166, 0.1);
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.donate-plan-two {
+    background-color: rgba(255, 89, 89, 0.1);
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.donate-plan-three {
+    background-color: rgba(255, 244, 214, 1);
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+/* Our Donate Plan End */
+
+/* Testimonial Area Start */
+.testimonial-area{
+    padding: 10px 0 30px 0;
+}
+.testimonial-title h2{
+    text-align: center;
+    color: #121212;
+    font-size: 30px;
+}
+.testimonial-text{
+    background-image: url(/icons/testimonial-quote.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+.testimonial-text p{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+.testimonial-author {
+    text-align: center;
+}
+.testimonial-author .author-iamge{
+    border-radius: 50%;
+    width: 50px;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+.arrow span{
+    padding: 5px 5px 5px 5px;
+    margin: 0 3px 0 3px;
+    background-color: gray;
+    border-radius: 50%;
+}
+/* Testimonial Area End */
+
+/* Subscription Area Start */
+.subscription{
+    text-align: center;
+    padding: 30px;
+}
+.subscription-form{
+    width: 700px;
+    margin: 0 auto;
+    padding: 70px;
+    background-color: rgba(255, 244, 214, 1);
+}
+.subscription-form input{
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 0 13px 18px;
+    background-color: #D9D9D9;
+}
+.subscription-form button{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: -12px;
+    padding: 12px 18px 12px 18px;
+    color: white;
+    background-color: #FF5959;
+}
+/* Subscription Area End */
+
+/* Footer Area Start */
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 25px;
+}
+footer h3{
+    color: #FF5959;
+    font-family: "Lobster", cursive;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 12px;
+}
+/* Footer Area End */
